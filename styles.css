@@ -6,7 +6,7 @@
   
   
 
-  .top .p namaste{
+  .top.p namaste{
         font-family: 'Lexend Deca',sans-serif;
         color: #332e2e;
         font-size: 100px;
@@ -14,7 +14,7 @@
         font-weight: 900;
         text-align: left;
   }
-  .top .p hello{
+  .top.p hello{
     margin-top: 1px;
     padding-left: 10px;
     font-size: 15px;
