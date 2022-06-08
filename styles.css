@@ -31,3 +31,9 @@
     line-height: 28px;
     text-align: left;
   }
+
+  .p hello{
+    padding-left: 2%;
+    font-size: 17px;
+    line-height: 1.8em;
+  }
