@@ -29,6 +29,109 @@
     text-align: left;
   }
 
-  .body{
-    background-color: #fff8f4;
-  }
+  
+
+  .navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+
+.navbar {
+    position: static;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2%;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 15% 2%;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    border-top: 4px #000;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+}
+.w-nav {
+    position: relative;
+    background: #ddd;
+    z-index: 1000;
+}
+
+div {
+    display: block;
+}
+.body {
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+    clear: none;
+    background-color: #fff7f4;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+}
+
+.bonjour-h1 {
+  font-family: 'Lexend Deca',sans-serif;
+  color: #332e2e;
+  font-size: 100px;
+  line-height: .8em;
+  font-weight: 900;
+  text-align: left;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Atkinson Hyperlegible',sans-serif;
+  color: #332e2e;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+
+.column-1 {
+  padding-right: 0;
+  padding-left: 15%;
+  text-align: left;
+}
+.w-col-6 {
+  width: 50%;
+}
+.w-col {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
