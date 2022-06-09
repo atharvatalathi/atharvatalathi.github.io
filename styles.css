@@ -11,28 +11,7 @@
   }
   
   header .button{
-    position: static;
-    left: auto;
-    top: 0;
-    right: 0;
-    bottom: auto;
-    display: block;
-    padding: 15px 40px;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    border: 2px solid #332e2e;
-    border-radius: 60px;
-    background-color: #e3fff8;
-    -webkit-transition: .2s cubic-bezier(.455, .03, .515, .955);
-    transition: .2s cubic-bezier(.455, .03, .515, .955);
-    font-family: 'Atkinson Hyperlegible',sans-serif;
-    color: #332e2e;
-    font-weight: 700;
-    letter-spacing: 0;
-    text-decoration: none;
-    text-transform: none;
+    position: right;
   }
   
 
