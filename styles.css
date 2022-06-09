@@ -10,7 +10,7 @@
     padding-left: 5%;
   }
   
-  header.email-button{
+  a.email-button{
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
