@@ -5,11 +5,14 @@
   margin-right: auto;
   margin-left: auto;
   padding-right: 5%;
-  padding-bottom: 5%;
   padding-left: 5%;
 }
 
-
+.abc{
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 10px;
+}
 
 p.namaste{
       font-family: 'Lexend Deca',sans-serif;
@@ -27,6 +30,23 @@ p.hello{
   line-height: 28px;
   text-align: left;
 }
+
+
+.font{
+  font-family: 'Atkinson Hyperlegible',sans-serif;
+    color: #332e2e;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: .5px;
+}
+
+
+.font1{
+  font-family: 'Atkinson Hyperlegible',sans-serif;
+    color: #332e2e;
+    font-size: 25px;
+}
+
 
 .navbar {
   left: 0;
@@ -86,7 +106,7 @@ letter-spacing: .5px;
 
 .column-1 {
 padding-right: 0;
-padding-left: 15%;
+padding-left: 25%;
 text-align: left;
 }
 
@@ -248,4 +268,82 @@ width: 100%;
   transform: translate3d(0,-0%,0);
 }
 
+}
+
+
+.sevices-column{
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  
+}
+
+.green-content {
+  height: auto;
+  margin-left: 40px;
+  padding: 0px;
+  border-radius: 50px;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  padding: 10px 10px 10px;
+  float: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 40px;
+  background-color: #b6ffd2;
+  text-align: center;
+  cursor: auto;
+  
+}
+
+
+
+
+
+.footer {
+  border-top-style: solid;
+  border-width: 2px 1px;
+  border-color: #000;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  font-family: Oswald,sans-serif;
+}
+
+
+section .skills{
+  visibility: visible;  
+  -webkit-transform: translateY(0) scale(1); 
+  opacity: 1;
+  transform: translateY(0) scale(1); 
+  opacity: 1;
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(.694,0,.335,1) 0s, 
+  opacity 0.6s cubic-bezier(.694,0,.335,1) 0s; 
+  transition: transform 0.6s cubic-bezier(.694,0,.335,1) 0s, 
+  opacity 0.6s cubic-bezier(.694,0,.335,1) 0s; 
+}
+
+.skills .skillz {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills .skillz_category_label {
+  font-weight: 800;
+  color: #36363c;
+  text-transform: uppercase;  
+}
+
+.skills .skillz_category_item {
+  margin: 3px 0;
+  font-size: .9rem;
 }
